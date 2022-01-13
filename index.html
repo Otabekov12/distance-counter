@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>distance counter</title>
+</head>
+<body>
+    
+    
+    <section class="distance">
+        <div class="container">
+            <h1 class="distance__heading">Kim birinchi bo-rish-ga!</h1>
+            
+            <form class="form">
+                
+                <label>Masofa:
+                    <input 
+                    class="input" 
+                    type="number"
+                    placeholder="100km"
+                    required>
+                </label>
+                
+                <button class="btn" type="submit">Hisobla</button>
+                
+            </form>
+            
+            <p class="error__text"> </p>
+            
+            <ul class="list">
+                <li class="item">
+                    
+                    <h2>Piyoda</h2>
+                    
+                    <strong  class="item__text foot__result"></strong>
+                </li>
+                
+                <li class="item">
+                    
+                    <h2>Velosiped</h2>
+                    
+                    <strong class="item__text bike__result"></strong>
+                </li>
+                
+                <li class="item">
+                    
+                    <h2>Mashina</h2>
+                    
+                    <strong  class="item__text car__result"></strong>
+                </li>
+                
+                <li class="item">
+                    
+                    <h2>Samolyot</h2>
+                    
+                    <strong class="item__text plane__result" ></strong>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </section>    
+    <script src="./main.js"></script>
+</body>
+</html>
